@@ -1,0 +1,12 @@
+Intuition
+using indexOf , lastIndexOf and splice methods.
+
+Approach
+sort the nums array
+find the first and last index of the values
+if first index not equal to -1 then splice the nums array means remove elements nums.splice(from findex to lindex-findex+1)
+return nums.length
+
+indexOf se first index milega
+lastIndexOf se last
+splice methods- nums.splice(findex,lindex-findex+1)
