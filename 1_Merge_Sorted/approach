@@ -1,0 +1,26 @@
+Intuition
+Thought of using two pointer technique to solve the question.
+
+
+
+Approach
+if there are no values in nums2;break out of loop.
+if m=0;copy values from nums2 to nums1.
+start comparaing values from beginning of nums1 and 2.if nums1 value<nums2 then move to next ele for nums1.
+If value at nums2<nums1;then interchange.
+After all comparisions,copy all leftover elements from nums2 to nums1.
+
+
+Complexity
+
+Time complexity:
+O(M∗N∗Log(N))
+
+got to know how to sort a array in javascript:
+we cannot sort numeric js arrays because the values are interpreted as strings.
+so we use compare method .
+nums1.sort(function(a,b)=>{return a-b});
+the compare function returns either negative,0 or +ve value.if -ve a should be before b.
+0=equal
++ve means a should be after b.
+
