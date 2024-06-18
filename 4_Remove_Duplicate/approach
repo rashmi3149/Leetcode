@@ -1,0 +1,3 @@
+we dont have to use any extra array.
+so finding the last position of an element.
+if the diff bet the first and last position is>2 - use splice function to remove elements from i+1 position to last-i-1.
